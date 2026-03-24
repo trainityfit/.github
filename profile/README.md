@@ -1,69 +1,136 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,100:56b8d4&height=140&section=header&text=Trainity&fontColor=ffffff&fontSize=48&fontAlignY=40&desc=Engineering-first%20Training%20OS&descAlignY=68" alt="Trainity" />
+<a href="./README.md">
+  <img src="https://img.shields.io/badge/ES-56b8d4?style=for-the-badge&labelColor=0f172a&color=56b8d4" alt="README en Espanol" />
+</a>
+<a href="./README.en.md">
+  <img src="https://img.shields.io/badge/EN-1f2937?style=for-the-badge&labelColor=0f172a&color=1f2937" alt="README in English" />
+</a>
 
-**Engineering-first Training OS for Coaches and Athletes**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,60:141b2d,100:56b8d4&height=180&section=header&text=Trainity&fontColor=ffffff&fontSize=54&fontAlignY=40&desc=Training%20Operating%20System%20for%20Coaches%20and%20Athletes&descAlignY=66" alt="Trainity banner" />
+
+### Infraestructura de producto para entrenamiento serio
 
 <p>
-  <img src="https://img.shields.io/badge/Status-Beta-0f172a?style=flat-square" alt="Status" />
-  <img src="https://img.shields.io/badge/Focus-Mobile--first-0f172a?style=flat-square" alt="Focus" />
-  <img src="https://img.shields.io/badge/API-REST-0f172a?style=flat-square" alt="API" />
-  <img src="https://img.shields.io/badge/Contracts-Zod-0f172a?style=flat-square" alt="Contracts" />
-  <img src="https://img.shields.io/badge/Perf-Sub--300ms-0f172a?style=flat-square" alt="Perf" />
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/React-23272F?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Node-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node" />
-  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" alt="Zod" />
+  <img src="https://img.shields.io/badge/Beta-Abierta-56b8d4?style=flat-square&labelColor=0f172a" alt="Beta" />
+  <img src="https://img.shields.io/badge/Frontend-React%20%2B%20Vite-56b8d4?style=flat-square&labelColor=0f172a" alt="Frontend" />
+  <img src="https://img.shields.io/badge/Backend-Express%20%2B%20MongoDB-56b8d4?style=flat-square&labelColor=0f172a" alt="Backend" />
+  <img src="https://img.shields.io/badge/Contracts-Zod-56b8d4?style=flat-square&labelColor=0f172a" alt="Contracts" />
+  <img src="https://img.shields.io/badge/Mode-Dark--first-56b8d4?style=flat-square&labelColor=0f172a" alt="Dark first" />
+  <img src="https://img.shields.io/badge/Focus-Mobile%20Logging-56b8d4?style=flat-square&labelColor=0f172a" alt="Mobile logging" />
 </p>
 
 </div>
 
 ---
 
-## What We Build
-Trainity is a performance-focused training platform that reduces friction between intent and execution. We optimize for speed, clarity, and measurable progress.
+## Tesis
 
-## Architecture
+Trainity se esta construyendo como un sistema operativo de entrenamiento para entrenadores y atletas que necesitan velocidad, claridad operativa y una experiencia de producto premium. La prioridad no es "fitness content". La prioridad es ejecucion: planificar mejor, registrar sin friccion y convertir datos de entrenamiento en decisiones utilizables.
+
+> La mayor parte del codigo de aplicacion sigue siendo privada mientras el producto esta en construccion activa. Este perfil publico se centra en arquitectura, direccion de producto y formas de colaborar con nosotros.
+
+## Lo Que Estamos Construyendo
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Coach Ops</h3>
+      <p>Rutinas, asignaciones, seguimiento y operativa diaria para entrenadores que gestionan progreso real, no hojas de calculo dispersas.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Session Logging</h3>
+      <p>Registro mobile-first para sesiones reales, con foco en velocidad, contexto y minima friccion durante el entreno.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Metrics</h3>
+      <p>Metricas claras para adherencia, volumen, progresion y lectura operativa del bloque de entrenamiento.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>AI Modules</h3>
+      <p>Capacidades de IA desacopladas del core para revision de video, feedback tecnico y flujos asistidos por entrenador.</p>
+    </td>
+  </tr>
+</table>
+
+## Arquitectura
+
+```text
+web (React / Vite)
+        |
+        v
+api (Express)
+        |
+        v
+db (MongoDB)
 ```
-web (React/Vite)  ->  api (Express)  ->  db (MongoDB)
-```
 
-Backend layers:
-`controllers -> services -> repositories -> models`
+### Principios de sistema
 
-## Core Modules
-- **Auth + Roles**: trainer, client, independent
-- **Routines**: creation, assignment, import
-- **Workout Logs**: draft/final, historical view
-- **Gamification**: XP, levels, PRs, leaderboard
-- **Social**: friends, requests, comparison
-- **AI Video Analysis** (optional module)
+- `controllers -> services -> repositories -> models`
+- Validacion de entrada con `Zod`
+- Roles de dominio claros: `trainer`, `client`, `independent`
+- Logging mobile-first, gestion trainer desktop-first
+- Modulos de IA aislados del core transaccional
 
-## Data Contracts
-- API input validation with **Zod**
-- Consistent error shape across endpoints
-- Rate limiting on auth and public lead endpoints
+## Engineering Thesis
 
-## UX & Performance Targets
-- Mobile-first logging flow
-- Desktop-first for trainer ops
-- Sub-300ms interaction targets in core flows
-- Strong visual hierarchy and low cognitive load
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>Speed</h3>
+      <p>Reducimos friccion en los flujos criticos. El producto tiene que sentirse rapido durante una sesion real, no solo en una demo.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>Clarity</h3>
+      <p>Contratos claros, ownership explicito y una interfaz que no obliga al usuario a interpretar ruido.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>Durability</h3>
+      <p>Arquitectura suficientemente limpia para evolucionar sin rehacer el producto cada pocas semanas.</p>
+    </td>
+  </tr>
+</table>
 
-## Status
-- Open beta, limited access
-- Active build cycle with coach and athlete feedback
+## Para Talento Tecnico
 
-## Contact
+Nos interesa gente que piense en producto y sistemas a la vez.
+
+- Ingenieria con sensibilidad por UX, no solo por features.
+- Backend limpio, contratos robustos y ownership real.
+- Frontend con criterio visual, jerarquia y rendimiento percibido.
+- Interes por herramientas internas, flujos de IA y calidad de ejecucion.
+
+## Para Partners E Inversores
+
+Trainity no intenta competir por volumen de contenido. La apuesta es construir infraestructura de producto para entrenamiento serio.
+
+- Operativa para entrenadores con foco en adopcion diaria.
+- Experiencia movil pensada para el momento de entrenamiento.
+- Base tecnica preparada para modulos premium y workflows asistidos por IA.
+- Direccion de producto con criterio de sistema, no solo de interfaz.
+
+## Comunidad
+
+Estamos abriendo el perfil publico de Trainity para empezar a compartir la direccion del proyecto y facilitar puntos de entrada para colaboracion.
+
+- `Waitlist`: `https://placeholder.trainity.dev/waitlist`
+- `Website`: `https://placeholder.trainity.dev`
+- `Partnerships`: `alexmico2006@gmail.com`
+- `Technical conversations`: `alexmico2006@gmail.com`
+
+## Contacto
+
 - Email: `alexmico2006@gmail.com`
-- Web: (pending)
-- Waitlist: (pending)
+- Web: `coming soon`
+- Waitlist: `coming soon`
 
 ---
 
-We are shipping a training OS engineered for real-world sessions.
+<div align="center">
+
+**Trainity is building software for people who actually train.**
+
+</div>
