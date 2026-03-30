@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,55:141b2d,100:56b8d4&height=190&section=header&text=Trainity&fontColor=ffffff&fontSize=56&fontAlignY=40&desc=Training%20Operating%20System%20for%20Coaches%20and%20Athletes&descAlignY=67" alt="Trainity banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,55:141b2d,100:56b8d4&height=190&section=header&text=Liftnotch&fontColor=ffffff&fontSize=56&fontAlignY=40&desc=Training%20Operating%20System%20for%20Coaches%20and%20Athletes&descAlignY=67" alt="Liftnotch banner" />
 
-### Training operating system para entrenadores y atletas
+### Operating system para entrenamiento serio
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=600&size=20&pause=1500&color=56B8D4&center=true&vCenter=true&width=900&lines=Coach+Ops;Session+Logging;Metrics+and+Progress;AI+Modules" alt="Trainity highlights" />
+  <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=600&size=20&pause=1500&color=56B8D4&center=true&vCenter=true&width=900&lines=Coach+Ops;Session+Logging;Metrics+and+Progress;AI+Modules" alt="Liftnotch highlights" />
 </a>
 
 <p>
@@ -29,9 +29,9 @@
 
 ---
 
-## Trainity
+## Liftnotch
 
-Trainity es una plataforma de entrenamiento construida para centralizar rutinas, sesiones y metricas en un solo sistema. La direccion del producto es clara: menos friccion operativa, mas claridad y mejor ejecucion en el entrenamiento real.
+Liftnotch es una plataforma de entrenamiento construida para centralizar rutinas, sesiones y metricas en un solo sistema. La direccion del producto es clara: menos friccion operativa, mas claridad y mejor ejecucion en el entrenamiento real.
 
 Se esta desarrollando como un `training operating system` para entrenadores, clientes y atletas independientes. La mayor parte del codigo de aplicacion sigue siendo privada mientras el producto evoluciona. Este perfil publico existe para compartir la direccion del proyecto, su arquitectura y sus principios.
 
@@ -47,7 +47,7 @@ El entrenamiento serio sigue teniendo demasiado ruido operativo:
 - metricas dispersas o dificiles de interpretar
 - herramientas bonitas para demo, pero torpes en uso diario
 
-Trainity se esta construyendo para cerrar ese hueco con un enfoque claro:
+Liftnotch se esta construyendo para cerrar ese hueco con un enfoque claro:
 
 - `desktop-first` donde el entrenador necesita gestion
 - `mobile-first` donde el atleta necesita velocidad
@@ -237,7 +237,7 @@ Buscamos gente que piense en producto y sistemas a la vez.
 
 ## Para Partners E Inversores
 
-Trainity no compite por volumen de contenido. La apuesta es construir infraestructura de producto para entrenamiento serio y repetible.
+Liftnotch no compite por volumen de contenido. La apuesta es construir infraestructura de producto para entrenamiento serio y repetible.
 
 - Operativa clara para entrenadores.
 - Experiencia movil utilizable durante el entreno.
@@ -256,8 +256,8 @@ Aunque el codigo principal siga siendo privado por ahora, este perfil se ira usa
 ## Comunidad
 
 - Profile repo: `.github`
-- Website: `https://placeholder.trainity.dev`
-- Waitlist: `https://placeholder.trainity.dev/waitlist`
+- Website: `https://liftnotch.com`
+- Waitlist: `https://liftnotch.com/waitlist`
 - Contacto general: `alexmico2006@gmail.com`
 - Partnerships: `alexmico2006@gmail.com`
 

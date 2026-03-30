@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/EN-56b8d4?style=for-the-badge&labelColor=0f172a&color=56b8d4" alt="README in English" />
 </a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,60:141b2d,100:56b8d4&height=180&section=header&text=Trainity&fontColor=ffffff&fontSize=54&fontAlignY=40&desc=Training%20Operating%20System%20for%20Coaches%20and%20Athletes&descAlignY=66" alt="Trainity banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,60:141b2d,100:56b8d4&height=180&section=header&text=Liftnotch&fontColor=ffffff&fontSize=54&fontAlignY=40&desc=Training%20Operating%20System%20for%20Coaches%20and%20Athletes&descAlignY=66" alt="Liftnotch banner" />
 
 ### Product infrastructure for serious training
 
@@ -26,7 +26,7 @@
 
 ## Thesis
 
-Trainity is being built as a training operating system for coaches and athletes who need speed, operational clarity, and a premium product experience. The focus is not "fitness content." The focus is execution: planning better, logging without friction, and turning training data into usable decisions.
+Liftnotch is being built as a training operating system for coaches and athletes who need speed, operational clarity, and a premium product experience. The focus is not "fitness content." The focus is execution: planning better, logging without friction, and turning training data into usable decisions.
 
 > Most application code remains private while the product is under active development. This public profile is focused on architecture, product direction, and ways to engage with the team.
 
@@ -105,7 +105,7 @@ We care about people who think about product and systems at the same time.
 
 ## For Partners And Investors
 
-Trainity is not trying to compete on content volume. The bet is to build product infrastructure for serious training.
+Liftnotch is not trying to compete on content volume. The bet is to build product infrastructure for serious training.
 
 - Coach operations with a focus on daily adoption.
 - Mobile experience designed for the actual training moment.
@@ -114,10 +114,10 @@ Trainity is not trying to compete on content volume. The bet is to build product
 
 ## Community
 
-We are opening Trainity's public profile to start sharing the direction of the company and create clear entry points for collaboration.
+We are opening Liftnotch's public profile to start sharing the direction of the company and create clear entry points for collaboration.
 
-- `Waitlist`: `https://placeholder.trainity.dev/waitlist`
-- `Website`: `https://placeholder.trainity.dev`
+- `Waitlist`: `https://liftnotch.com/waitlist`
+- `Website`: `https://liftnotch.com`
 - `Partnerships`: `alexmico2006@gmail.com`
 - `Technical conversations`: `alexmico2006@gmail.com`
 
@@ -131,6 +131,6 @@ We are opening Trainity's public profile to start sharing the direction of the c
 
 <div align="center">
 
-**Trainity is building software for people who actually train.**
+**Liftnotch is building software for people who actually train.**
 
 </div>

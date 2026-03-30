@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:56b8d4&height=120&section=header&text=Trainity%20.github&fontColor=ffffff&fontSize=36&fontAlignY=45" alt="Trainity .github" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:56b8d4&height=120&section=header&text=Liftnotch%20.github&fontColor=ffffff&fontSize=36&fontAlignY=45" alt="Liftnotch .github" />
 
 ### Infraestructura publica para el perfil de organizacion en GitHub
 
@@ -16,7 +16,7 @@
 
 ## Que Es Este Repositorio
 
-Este repositorio no contiene el producto de Trainity. Existe para alojar el perfil publico de la organizacion y cualquier configuracion publica minima asociada a GitHub.
+Este repositorio no contiene el producto de Liftnotch. Existe para alojar el perfil publico de la organizacion y cualquier configuracion publica minima asociada a GitHub.
 
 ## Estructura
 
@@ -36,7 +36,7 @@ GitHub exige un repositorio publico llamado `.github` para renderizar un perfil 
 
 ## Que Si Hace
 
-- da contexto publico sobre Trainity desde GitHub
+- da contexto publico sobre Liftnotch desde GitHub
 - aloja el contenido visible del perfil de organizacion
 - sirve como punto de apoyo para metadata publica ligera
 
@@ -49,4 +49,4 @@ GitHub exige un repositorio publico llamado `.github` para renderizar un perfil 
 
 ## Nota Operativa
 
-Si Trainity necesita un perfil interno solo para miembros, GitHub soporta un repositorio privado separado llamado `.github-private`.
+Si Liftnotch necesita un perfil interno solo para miembros, GitHub soporta un repositorio privado separado llamado `.github-private`.
