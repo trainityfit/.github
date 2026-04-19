@@ -1,125 +1,140 @@
 <div align="center">
 
-<a href="./README.md">
-  <img src="https://img.shields.io/badge/ES-activo-56b8d4?style=for-the-badge&labelColor=0f172a" alt="Español" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,60:0f2a45,100:56b8d4&height=200&section=header&text=Strev&fontColor=ffffff&fontSize=72&fontAlignY=38&desc=Software%20para%20entrenadores%20personales%20freelance&descAlignY=60&descSize=18&descFontColor=94a3b8" />
+
+<br />
+
+<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Sans&weight=500&size=20&pause=1200&color=56B8D4&center=true&vCenter=true&width=600&lines=Registra+un+set+en+2+taps.;Gestiona+30+clientes+sin+Excel.;Cobra+con+Stripe.+Lanzamiento+1+jun+2026." alt="Typing SVG" />
+
+<br /><br />
+
+<a href="https://strev.app">
+  <img src="https://img.shields.io/badge/🌐%20strev.app-visitar-56b8d4?style=for-the-badge&labelColor=0f172a" alt="strev.app" />
 </a>
 &nbsp;
-<a href="./README.en.md">
-  <img src="https://img.shields.io/badge/EN-english-475569?style=for-the-badge&labelColor=0f172a" alt="English" />
+<a href="https://strev.app/waitlist">
+  <img src="https://img.shields.io/badge/📋%20Waitlist-abierta-22c55e?style=for-the-badge&labelColor=0f172a" alt="Waitlist" />
+</a>
+&nbsp;
+<a href="mailto:hola@strev.app">
+  <img src="https://img.shields.io/badge/✉️%20hola@strev.app-contacto-94a3b8?style=for-the-badge&labelColor=0f172a" alt="Email" />
 </a>
 
 <br /><br />
 
-<h1>Strev</h1>
-
-<p><strong>Software de gestión para entrenadores personales freelance.</strong></p>
-<p>Registra un set en 2 taps. Gestiona 30 clientes sin Excel ni WhatsApp. Cobra con Stripe.</p>
-
-<br />
-
-<a href="https://strev.app">
-  <img src="https://img.shields.io/badge/strev.app-visitar-56b8d4?style=flat-square&labelColor=0f172a" alt="strev.app" />
-</a>
-<a href="https://strev.app/waitlist">
-  <img src="https://img.shields.io/badge/Lista%20de%20espera-abierta-22c55e?style=flat-square&labelColor=0f172a" alt="Waitlist abierta" />
-</a>
-<img src="https://img.shields.io/badge/Lanzamiento-1%20Jun%202026-f59e0b?style=flat-square&labelColor=0f172a" alt="Lanzamiento" />
+<img src="https://img.shields.io/badge/Lanzamiento-1%20Jun%202026-f59e0b?style=flat-square&labelColor=0f172a" />
+<img src="https://img.shields.io/badge/Stack-React%2019%20%2B%20Express%205-56b8d4?style=flat-square&labelColor=0f172a" />
+<img src="https://img.shields.io/badge/GDPR-compliant-22c55e?style=flat-square&labelColor=0f172a" />
 
 </div>
 
----
-
-## El problema
-
-Los entrenadores personales freelance con 5–30 clientes activos gestionan su negocio con tres herramientas que no hablan entre sí: **Excel** para rutinas y progreso, **WhatsApp** para comunicación, y **notas en papel** durante el entrenamiento. El resultado es horas perdidas cada semana en tareas que no aportan valor al cliente.
-
-Strev reemplaza ese stack con una sola plataforma optimizada para el flujo real del entrenador.
+<br />
 
 ---
 
-## Para quién es
+## ¿Qué es Strev?
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Entrenador personal freelance</h3>
-      <p>Crea rutinas, las asigna y personaliza por cliente sin duplicar trabajo. Revisa adherencia y señales de estancamiento desde el dashboard. Cobra suscripciones mensuales o anuales. Exporta todo a Excel si quiere salir.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Atleta independiente</h3>
-      <p>Registra sesiones en 1–2 taps. Ve sus récords personales en el acto. Analiza su técnica con IA. Sin entrenador, sin fricción, sin perder datos.</p>
-    </td>
-  </tr>
-</table>
+Los entrenadores personales freelance gestionan 5–30 clientes con **Excel + WhatsApp + notas en papel**. Strev reemplaza ese stack con una sola plataforma construida alrededor del flujo real del entrenador.
+
+> *El software de entrenamiento no debería estorbar durante una sesión real.*
+
+<br />
+
+<div align="center">
+
+|  | 🏋️ **Entrenador personal** | 🎯 **Atleta independiente** |
+|---|---|---|
+| **Core** | Crea rutinas, asigna y personaliza por cliente sin duplicar | Registra sesiones en 1–2 taps con timer y PRs |
+| **Gestión** | Dashboard con KPIs, adherencia y señales de estancamiento | Métricas de progreso, informe mensual exportable |
+| **Pagos** | Cobra suscripciones Pro/Master/Elite con Stripe | Plan Athlete Pro con historial completo + IA ilimitada |
+| **Extra** | Anamnesis digital, perfil público, plantillas de comunicación | Análisis de técnica con IA de vídeo |
+
+</div>
+
+<br />
 
 ---
 
 ## El core loop
 
+<div align="center">
+
 ```
-Abrir app → ver siguiente ejercicio → registrar set → PR badge → siguiente
+Abrir app  →  Ver siguiente ejercicio  →  Registrar set  →  PR badge  →  Siguiente
 ```
 
-Todo lo demás — gestión, pagos, métricas, IA — está construido para no añadir fricción a este flujo.
+*Todo lo demás está construido para no añadir fricción a este flujo.*
+
+</div>
+
+<br />
 
 ---
 
 ## Planes
 
-**Entrenadores**
+<div align="center">
 
-| Plan | Precio | Clientes | IA / día |
-|---|---|---|---|
-| Free | €0 | 5 | 1 |
-| Pro | €24 / mes | 20 | 5 |
-| Master | €49 / mes | 50 | 10 |
-| Elite | €79 / mes | 100 | 20 |
+**Entrenadores** · Descuento anual: 2 meses gratis
 
-**Atletas independientes:** Free (€0) · Athlete Pro (€9 / mes)
+| Plan | Precio | Clientes activos | Rutinas | IA / día |
+|:---:|:---:|:---:|:---:|:---:|
+| **Free** | €0 | 5 | 5 | 1 |
+| **Pro** | €24 / mes | 20 | 25 | 5 |
+| **Master** | €49 / mes | 50 | ∞ | 10 |
+| **Elite** | €79 / mes | 100 | ∞ | 20 |
 
-Descuento anual: **2 meses gratis** en todos los planes de pago.
+**Atletas** · Free (€0, 3 rutinas) · **Athlete Pro** (€9 / mes, todo ilimitado)
+
+</div>
+
+<br />
 
 ---
 
-## Arquitectura
+## Stack
 
-```
-strev-web (React 19 · Vite · Tailwind · Framer Motion)
-          ↓
-strev-api (Express 5 · Node 22 · Zod · JWT)
-          ↓
-MongoDB Atlas · Cloudflare R2 · Upstash Redis
-```
+<div align="center">
 
-- Capas: `controllers → services → repositories → models`
-- Roles explícitos: `trainer` · `client` · `independent`
-- Dark-first con toggle. Sin dependencias de tema en tiempo de ejecución.
-- IA asíncrona con BullMQ, desacoplada del core transaccional.
+<img src="https://skillicons.dev/icons?i=react,vite,tailwind,nodejs,mongodb,redis,cloudflare&theme=dark&perline=7" alt="Stack icons" />
+
+<br /><br />
+
+<img src="https://img.shields.io/badge/React-19-61dafb?style=flat-square&logo=react&logoColor=white&labelColor=0f172a" />
+<img src="https://img.shields.io/badge/Express-5-ffffff?style=flat-square&logo=express&logoColor=white&labelColor=0f172a" />
+<img src="https://img.shields.io/badge/Node-22-5fa04e?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=0f172a" />
+<img src="https://img.shields.io/badge/MongoDB-Atlas-47a248?style=flat-square&logo=mongodb&logoColor=white&labelColor=0f172a" />
+<img src="https://img.shields.io/badge/Stripe-pagos-635bff?style=flat-square&logo=stripe&logoColor=white&labelColor=0f172a" />
+<img src="https://img.shields.io/badge/Cloudflare-R2%20%2B%20Pages-f38020?style=flat-square&logo=cloudflare&logoColor=white&labelColor=0f172a" />
+<img src="https://img.shields.io/badge/Sentry-errores-362d59?style=flat-square&logo=sentry&logoColor=white&labelColor=0f172a" />
+
+</div>
+
+<br />
 
 ---
 
 ## Repositorios
 
-| Repo | Descripción |
-|---|---|
-| [strev-web](https://github.com/StrevFit/strev-web) | Frontend React — landing, dashboard, workout session, métricas |
-| [strev-api](https://github.com/StrevFit/strev-api) | Backend Express — API REST, auth, gamificación, IA, pagos |
+<div align="center">
 
----
+<a href="https://github.com/StrevFit/strev-web">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=StrevFit&repo=strev-web&theme=transparent&bg_color=0f172a&border_color=1e3a5f&title_color=56b8d4&text_color=94a3b8&icon_color=56b8d4" alt="strev-web" />
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/StrevFit/strev-api">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=StrevFit&repo=strev-api&theme=transparent&bg_color=0f172a&border_color=1e3a5f&title_color=56b8d4&text_color=94a3b8&icon_color=56b8d4" alt="strev-api" />
+</a>
 
-## Estado del producto
+</div>
 
-- Auth, rutinas, sesiones, clientes, métricas, gamificación ✅
-- Pagos Stripe (Pro / Master / Elite / Athlete Pro) ✅
-- Anamnesis digital, análisis IA de vídeo, perfil público del entrenador ✅
-- Monitorización: Sentry + BetterStack + Umami ✅
-- **Lanzamiento público:** 1 de junio de 2026
+<br />
 
 ---
 
 <div align="center">
 
-**[strev.app](https://strev.app) · [hola@strev.app](mailto:hola@strev.app)**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:56b8d4,100:0f172a&height=100&section=footer&reversal=true" />
 
 *Construido para la gente que entrena de verdad.*
 
